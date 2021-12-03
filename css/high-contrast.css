@@ -165,8 +165,8 @@ textarea {
 
 }
 
-tr a {
-  color: #fff;
+tr a, .videoleiras{
+  color: #fff !important;
 }
 
 .rendelesgomb {
@@ -174,4 +174,8 @@ tr a {
   padding-right: 7rem;
   text-align: center;
   margin: auto;
+}
+
+.eleres2 .cimek {
+  font-size: 1.5rem;
 }
