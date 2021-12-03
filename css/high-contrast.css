@@ -1,0 +1,150 @@
+body {
+  background: black !important;
+  color: white !important;
+  font-family: 'Arial', sans-serif !important;
+  font-size: 2em !important;
+  line-height: 1.5 !important;
+}
+
+a {
+color: yellow;
+font-weight: bold;
+text-decoration: none;
+border-bottom: 2px yellow solid;
+padding-bottom: 2px ;
+}
+ 
+a:visited {
+background: #fff;
+color: black;
+font-weight: bold;
+text-decoration: none;
+border-bottom: 2px yellow solid;
+padding-bottom: 2px;
+}
+ 
+a:hover {
+color: #000;
+font-weight: bold;
+text-decoration: none;
+border-bottom: 2px yellow solid;
+padding-bottom: 2px;
+}
+
+#activate-high-contrast {
+  display: none !important; 
+}
+
+.hatterkep1 {
+  background-image: none !important;
+}
+
+.hatterkep2 {
+  background-image: none !important;
+}
+
+.szamozas {
+  color: #fff !important;
+}
+
+video {
+  display: none !important;
+}
+
+.footerlogos {
+  display: none !important;
+}
+
+.cegnev, .logo {
+  display: none !important;
+}
+
+.hatter_barna {
+  background-color: black !important;
+}
+
+nav, footer, ul, li {
+  background-color: black !important;
+}
+
+.rendelesgomb {
+  background-color: white;
+  color: #000;
+}
+
+.rendelesgomb:hover {
+  background-color: yellow;
+}
+
+.nagybekezdes {
+  color: white !important; 
+}
+
+nav li a.active {
+  background-color: yellow;
+  color: black;
+}
+
+nav li a:hover {
+  background-color: black;
+  color: white ;
+}
+
+.hatter_zold1 {
+  background-color: black !important;
+}
+
+.hatter_zold2 {
+  background-color: black !important;
+}
+
+.hatter_zold3 {
+  background-color: black !important;
+}
+
+.form_zold {
+  background-color: black !important;
+}
+
+.submit, .reset {
+  background-color: white !important;
+  color: #000 !important;
+  width: 10rem !important;
+  height: 5rem !important;
+  font-size: 2rem !important;
+  font-weight: bold !important;
+}
+
+.submit:hover, .reset:hover {
+  background-color: yellow !important;
+  color: #000 !important;
+}
+
+nav ul li a {
+  background-color: white;
+  color: #000
+}
+
+footer div a{
+  background-color: white;
+  color: black;
+}
+
+footer div a  span:hover{
+  background-color: yellow;
+  color: black;
+}
+
+footer div a span{
+  background-color: white;
+  color: black;
+}
+
+.javascript a {
+  background-color: #fff;
+  color: black;
+}
+
+.javascript a:hover {
+  background-color: yellow;
+}

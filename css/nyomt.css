@@ -1,0 +1,312 @@
+@import "styles.css" print;
+
+* {
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+@page {
+    margin: 3cm;
+}
+
+nav {
+    display: none;
+}
+
+footer {
+    display: none;
+}
+
+a {
+    display: none;
+}
+
+.hatterkep1 {
+    background-image: none;
+}
+
+.hatterkep2 {
+    background-image: none;
+}
+
+.hatter_barna {
+    background-color: white;
+    color: black;
+    margin: 0;
+    padding: 0;
+    font-size: 1rem;
+    
+}
+
+.hatter_zold1 {
+    background-color: white;
+    color: black;
+    margin-bottom: 0;
+    margin-top: -5rem;
+    
+
+}
+.hatter_zold2 {
+    background-color: white;
+    color: black;
+    margin-bottom: 0;
+    
+    
+
+}
+.hatter_zold3 {
+    background-color: white;
+    color: black;
+    margin-bottom: 0;
+    
+    
+
+}
+
+img {
+    display: none;
+}
+
+/* 1.Oldal */
+
+.miertminket {
+    margin: auto;
+    text-align: center;
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.rendeles_section {
+    margin: auto;
+    text-align: center;
+    display: block;
+
+}
+
+.rendeles_menete1 {
+    text-align: center;
+    margin: auto;
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.rendeles_menete2 {
+    text-align: center;
+    margin: auto;
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.rendeles_menete3 {
+    text-align: center;
+    margin: auto;
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.termekeink {
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+    'termekfocim termekfocim'
+    'termek1 termek2'
+    'termek3 termek4';
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    page-break-before: always;
+}
+
+figure {
+    padding: 0;
+}
+
+.nagybejegyzes {
+    margin: auto
+}
+
+.nagybekezdes {
+    
+    color: black;
+    margin-top: -5rem;
+}
+
+.nagycim {
+    font-size: 3rem;
+}
+
+
+.szamozas {
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    color: black;
+}
+
+.rendeles_menete3 {
+    page-break-after: avoid;
+    
+}
+
+/* 2.Oldal */
+
+video {
+    display: none;
+}
+
+.video {
+    display: none;
+}
+
+aside {
+    display: block;
+    width: 100%;
+    padding: 0rem;
+    margin: 0rem;
+}
+
+.rolunk_grid1 {
+    display: block;
+    width: 100%;
+    padding: 0;
+    margin: 0rem;
+    margin-top: 40%;
+}
+
+.hatter_barna {
+    display: block;
+    width: 100%;
+    padding: 0;
+    margin: 0rem;
+    page-break-before: always;
+    margin-top: 3cm;
+
+}
+
+.linkek {
+    display: unset;
+    text-decoration: none;
+    color: black;
+}
+
+.linkek:visited {
+    color: black;
+}
+
+.dijak {
+    display: block;
+    width: 100%;
+    height: auto;
+    padding: 0rem;
+    margin: auto;
+    text-align: center;
+}
+
+.tablazat {
+    display: block;
+    width: 100%;
+    height: auto;
+    padding: 0rem;
+    margin: auto;
+    text-align: left;
+    border-collapse: collapse;
+}
+
+table {
+    display: block;
+    width: 100%;
+    height: auto;
+    padding: 0rem;
+    margin: auto;
+    text-align: left;
+    border-collapse: collapse;
+    margin-top: 2rem;
+    page-break-after: always;
+}
+
+tr, td, th, caption, details, summary {
+    width: 100%;
+    height: auto;
+    padding: 0rem;
+    margin: auto;
+    text-align: left;
+    border-collapse: collapse;
+    padding-top: 1rem;
+}
+
+.elerhetosegek h3 {
+    font-size: 1rem;
+}
+
+.elerhetosegek {
+    gap: 2rem;
+
+}
+
+/* 3.Oldal */
+
+.nagybekezdes2 .nagybekezdes {
+    margin-top: 5rem;
+}
+
+.nagybekezdes2 {
+    page-break-before: always;
+}
+
+form {
+    color: black;
+    background-color: unset;
+}
+
+.form_zold {
+    background-color: unset;
+    color: black;
+}
+
+input {
+    display: none;
+}
+
+.rendeles {
+    margin-top: 0rem;
+    margin-bottom: 3rem;
+}
+
+/* 4.Oldal */
+
+.eleres1 {
+    display: none;
+}
+
+.eleres2 {
+    display: block;
+    margin: auto;
+}
+
+.eleres_grid {
+    display: block;
+}
+
+.eleres2 h2 {
+    display: none;
+}
+
+.cimek {
+   white-space: pre-line;
+}
+
+.nagybejegyzes.oldal4 {
+    margin-bottom: -10rem;
+}
+
+.nemtorheto {
+    padding-left: 1rem;
+}
+
+.nemnyomtat {
+    display: none;
+}
