@@ -177,5 +177,8 @@ tr a, .videoleiras{
 }
 
 .eleres2 .cimek {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
+  width: 100% !important;
+  height: auto !important;
+  margin: auto !important;
 }
